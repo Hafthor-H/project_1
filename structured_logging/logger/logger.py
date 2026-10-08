@@ -10,3 +10,4 @@ class Logger:
 
     def log(self, **kwargs: Iterable[Any]):
         raise NotImplementedError()
+        
