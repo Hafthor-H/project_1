@@ -8,10 +8,10 @@ class LoggingAdapter(ILogger):
         self.__logger = logger
 
     def error(self, message: str, exception: Exception = None):
-        self.__logger.log(message=message,exception=exception)
+        self.__logger.log(message=message,exception=exception, Level = 'Error')
 
     def warning(self, message: str, exception: Exception = None):
-        self.__logger.log(message=message,exception=exception)
+        self.__logger.log(message=message,exception=exception, Level = 'Warning')
 
     def info(self, message: str):
-        self.__logger.log(message=message)
+        self.__logger.log(message=message, Level = 'Info')

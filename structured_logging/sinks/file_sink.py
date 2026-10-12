@@ -10,6 +10,7 @@ class FileSink(ISink):
 
     def sink_data(self, data: dict) -> None:
 
-        with open(self._filepath, "w", encoding='utf-8') as file:
-            json.dump(data, file, ensure_ascii=False, indent=2)
+        with open(self._filepath, "a", encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False,indent=2)
+            file.write("\n")
     

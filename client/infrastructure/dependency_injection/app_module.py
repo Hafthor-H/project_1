@@ -23,3 +23,8 @@ class AppModule(Module):
 
         logger = create_logger(config)
         return LoggingAdapter(logger)
+
+    @provider
+    @singleton
+    def provide_settings(self) -> Settings:
+        return self.__settings

@@ -13,6 +13,7 @@ class AbstractProcessor(IProcessor):
 
         if self._next_processor is not None:
             self._next_processor.handle(data)
+        return data
 
     def process(self, data: dict):
         pass
