@@ -1,4 +1,4 @@
-from i_processor import IProcessor
+from structured_logging.processors.i_processor import IProcessor
 
 class AbstractProcessor(IProcessor):
     def __init__(self) -> None:

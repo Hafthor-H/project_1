@@ -1,4 +1,4 @@
-from i_sink import ISink
+from structured_logging.sinks.i_sink import ISink
 import json
 from pathlib import Path
 
