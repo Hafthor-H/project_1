@@ -114,3 +114,35 @@
   "environment": "production",
   "timestamp": "12/10/2026 21:43:42"
 }
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:08:06",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:08:06",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:08:06",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:08:06",
+  "card_number": "***",
+  "security_code": "***"
+}

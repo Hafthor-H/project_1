@@ -6,6 +6,7 @@ from structured_logging.sinks.file_sink import FileSink
 from structured_logging.sinks.console_sink import ConsoleSink
 from structured_logging.processors.null_processor import NullProcessor
 from structured_logging.processors.environment_processor import EnvironmentProcessor
+from structured_logging.processors.masking_processors import MaskingProcessor
 
 class LoggerConfigBuilder:
     def __init__(self):
@@ -34,6 +35,11 @@ class LoggerConfigBuilder:
 
     def add_environment(self, environment: Environment) -> 'LoggerConfigBuilder':
         processor = EnvironmentProcessor(environment)
+        self.add_processor(processor)
+        return self
+
+    def add_masking(self, mask: list) -> "LoggerConfigBuilder":
+        processor = MaskingProcessor(mask)
         self.add_processor(processor)
         return self
 

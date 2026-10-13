@@ -5,6 +5,7 @@ from structured_logging.logger_creation.logger_config_builder import LoggerConfi
 from structured_logging.processors.timestamp_processor import TimestampProccessor
 
 
+
 def create_logger_config(settings: Settings, builder: LoggerConfigBuilder) -> LoggerConfig:
     if settings.logging_type == LoggingType.FILE:
         builder.with_file_sink(settings.logging_file_path)
@@ -17,5 +18,6 @@ def create_logger_config(settings: Settings, builder: LoggerConfigBuilder) -> Lo
     environment = Environment(settings.environment.value)
     builder.add_environment(environment)
     builder.add_processor(TimestampProccessor())
+    builder.add_masking(["card_number", "security_code"])
 
     return builder.build()
