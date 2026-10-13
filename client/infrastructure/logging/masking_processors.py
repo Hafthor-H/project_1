@@ -7,4 +7,5 @@ class MaskingProcessor(AbstractProcessor):
 
     def process(self, data: dict):
         for key in self.__mask:
-            data[key] = "***"
+            if key in data.keys():
+                data[key] = "***"

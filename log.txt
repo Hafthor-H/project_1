@@ -318,3 +318,37 @@
   "card_number": "***",
   "security_code": "***"
 }
+{
+  "message": "Order started",
+  "level": "info",
+  "environment": "production",
+  "timestamp": "13/10/2026 17:04:11"
+}
+{
+  "message": "Payment started",
+  "level": "info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 17:04:11"
+}
+{
+  "message": "Payment finished",
+  "level": "info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 17:04:11"
+}
+{
+  "message": "Order finished",
+  "level": "info",
+  "environment": "production",
+  "timestamp": "13/10/2026 17:04:11"
+}
