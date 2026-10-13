@@ -12,9 +12,9 @@ class PaymentServiceStub():
         self.__settings = settings
 
     def pay(self, payment: Payment):
-        self.__logger.info("Payment started")
+        self.__logger.info("Payment started", payment)
 
         if self.__settings.should_payment_succeed:
-            self.__logger.info(f"Payment finished")
+            self.__logger.info(f"Payment finished", payment)
         else:
             raise Exception("Payment failed")

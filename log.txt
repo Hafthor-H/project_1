@@ -146,3 +146,175 @@
   "card_number": "***",
   "security_code": "***"
 }
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:27",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:27",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:27",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:27",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:31",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:31",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:31",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:20:31",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:22:52",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:22:52",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:22:52",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:22:52",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:27:43",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 16:27:43"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 16:27:43"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:27:43",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Order started",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:37:14",
+  "card_number": "***",
+  "security_code": "***"
+}
+{
+  "message": "Payment started",
+  "Level": "Info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 16:37:14"
+}
+{
+  "message": "Payment finished",
+  "Level": "Info",
+  "card_number": "***",
+  "expiration_date": "01/01/2021",
+  "security_code": "***",
+  "card_holder": "John Doe",
+  "amount": 100,
+  "environment": "production",
+  "timestamp": "13/10/2026 16:37:14"
+}
+{
+  "message": "Order finished",
+  "Level": "Info",
+  "environment": "production",
+  "timestamp": "13/10/2026 16:37:14",
+  "card_number": "***",
+  "security_code": "***"
+}
